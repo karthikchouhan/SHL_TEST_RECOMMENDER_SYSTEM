@@ -1,0 +1,61 @@
+[
+  {
+    "trace_id": "trace_001",
+    "persona": "Sarah is a recruiter at a fintech company hiring a mid-level Java developer who needs to collaborate with business stakeholders.",
+    "facts": {
+      "role": "Java developer",
+      "level": "mid-level",
+      "years_experience": 4,
+      "competencies": ["Java", "stakeholder communication", "personality fit"],
+      "remote_testing": true,
+      "industry": "fintech"
+    },
+    "expected_assessments": ["Java 8 (New)", "OPQ32r", "Verify Numerical Reasoning"]
+  },
+  {
+    "trace_id": "trace_002",
+    "persona": "Marcus is hiring a data analyst for a business intelligence team. Needs strong SQL and Excel skills plus analytical reasoning.",
+    "facts": {
+      "role": "data analyst",
+      "level": "graduate",
+      "years_experience": 1,
+      "competencies": ["SQL", "Excel", "numerical reasoning", "data interpretation"],
+      "remote_testing": true
+    },
+    "expected_assessments": ["SQL (New)", "Microsoft Excel (New)", "Verify Numerical Reasoning", "Verify Inductive Reasoning"]
+  },
+  {
+    "trace_id": "trace_003",
+    "persona": "Priya is a talent manager hiring a senior manager for a customer operations team. Leadership and judgment are critical.",
+    "facts": {
+      "role": "senior operations manager",
+      "level": "manager",
+      "competencies": ["leadership", "decision-making", "customer service", "personality"],
+      "remote_testing": true
+    },
+    "expected_assessments": ["OPQ32r", "Inbasket", "Business Judgement Test", "Situational Judgement Test"]
+  },
+  {
+    "trace_id": "trace_004",
+    "persona": "Tom is screening 500 entry-level customer service agents for a call center. Speed and volume are key.",
+    "facts": {
+      "role": "customer service agent",
+      "level": "entry",
+      "volume": "high",
+      "competencies": ["verbal ability", "customer service", "attention to detail"],
+      "remote_testing": true
+    },
+    "expected_assessments": ["Verbal Reasoning - Operational", "Customer Service Simulation", "General Ability - Short (G+s)", "Dependability and Safety Instrument (DSI)"]
+  },
+  {
+    "trace_id": "trace_005",
+    "persona": "A hiring manager wants assessments for a Python data scientist role. Needs to verify both technical skills and cognitive ability.",
+    "facts": {
+      "role": "data scientist",
+      "level": "professional",
+      "competencies": ["Python", "statistics", "problem-solving", "analytical thinking"],
+      "remote_testing": true
+    },
+    "expected_assessments": ["Python (New)", "Verify Inductive Reasoning", "Verify Numerical Reasoning", "Verify G+"]
+  }
+]
